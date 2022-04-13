@@ -4,7 +4,7 @@
 
 ### `window.open` method
 
-`window.open` method returns an reference to the receiver object.
+`window.open` method returns an reference to the receiver window.
 
 ```js
 function sendData() {
