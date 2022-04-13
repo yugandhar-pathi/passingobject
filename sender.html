@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function sendData(){
+            let windowReference = window.open("./receiver.html")
+            windowReference.dataSent = { author : "pathi"}
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="sendData()">Sender</button>
+</body>
+</html>
